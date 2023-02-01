@@ -1,7 +1,7 @@
 # Frontend Mentor - Interactive rating component
 
 --------------------------------------------------------------------------------------------------------------------------
-LIVE SERVER https://lukaszciesielski-pl.github.io/Component-interactive-rating/
+LIVE SERVER 
 
 --------------------------------------------------------------------------------------------------------------------------
 
