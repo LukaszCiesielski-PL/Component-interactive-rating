@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+}
+
+form,
+input,
+textarea,
+select,
+button,
+label {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    background-color: transparent;
+    color: inherit;
+    display: block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+em {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    font-family: 'Overpass', sans-serif;
+}
+
+.cardFirst{
+    max-width: 320px;
+    min-height: 320px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 1.5rem;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 1.5rem;
+    background-color: hsl(213, 19%, 22%);
+    margin-bottom: 0rem;
+}
+
+article{
+    line-height: 1.3rem;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+}
+p{
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+section > button{
+    width: 2.9rem;
+    height: 2.9rem;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-size: 0.936rem;
+    letter-spacing: 0rem;
+    font-weight: 400;
+    box-shadow: none;
+}
+section > button:hover{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);   
+}
+section > button:focus{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);   
+}
+
+button{
+    width: 20rem;
+    height: 2.9rem; 
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(18, 20, 23, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(18, 20, 23, 1);
+    box-shadow: 0px 0px 5px 0px rgba(18, 20, 23, 1);
+    border-radius: 1.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.936rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;  
+}
+button:hover{  
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);    
+}
+
+
+.cardSecond{
+    max-width: 320px;
+    min-height: 320px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 1.5rem;
+    padding: 1.75rem;
+    display: none;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+    
+}
+
+.cardSecond > figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    border-radius: none;
+    background-color: transparent;
+        
+}
+.cardSecond > article{
+    text-align: center;
+    line-height: 1.3rem;
+}
+.cardSecond > article > p{
+    font-size: 0.89rem;
+}
+
+.rateFeedback, .rateFeedback > p{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 22%);
+    width: 11.5rem;
+    height: 2rem;
+    font-size: 0.938rem;
+    text-align: center;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.2rem;
+    
+}
+#rate{
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+
+footer { 
+    margin-top: 3rem;
+    font-size: 0.75rem; 
+    text-align: center; 
+    color: hsl(0, 0%, 100%); ;
+}
+footer a  { 
+    color: hsl(25, 97%, 53%); 
+}
