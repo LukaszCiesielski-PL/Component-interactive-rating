@@ -79,7 +79,7 @@ figure{
 article{
     line-height: 1.3rem;
 }
-h1{
+h2{
     font-size: 1.5rem;
     font-weight: 700;
     color: hsl(0, 0%, 100%);
@@ -91,13 +91,13 @@ p{
     color: hsl(217, 12%, 63%);
 }
 
-section{
+.sectionBtn{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
 }
-section > button{
+.sectionBtn > button{
     width: 2.9rem;
     height: 2.9rem;
     color: hsl(217, 12%, 63%);
@@ -109,16 +109,16 @@ section > button{
     font-weight: 400;
     box-shadow: none;
 }
-section > button:hover{
+.sectionBtn > button:hover{
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);   
 }
-section > button:focus{
+.sectionBtn > button:focus{
     color: hsl(0, 0%, 100%);
     background-color: hsl(217, 12%, 63%);   
 }
 
-button{
+#button{
     width: 20rem;
     height: 2.9rem; 
     color: hsl(0, 0%, 100%);
@@ -133,7 +133,7 @@ button{
     font-weight: 400;
     letter-spacing: 0.1rem;  
 }
-button:hover{  
+#button:hover{  
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);    
 }
